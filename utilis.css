@@ -1,0 +1,24 @@
+:root {
+    --main-bg-color: #2874f0;
+}
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-1 {
+    margin: 8px 0px 6px 0px;
+    text-align: start;
+}
+.my-1 span{
+    color: var(--main-bg-color) ;
+}
+
+.clr-between-word {
+    color: #e43352;
+}
+
+.my-2 {
+    margin: 5px 0px;
+}

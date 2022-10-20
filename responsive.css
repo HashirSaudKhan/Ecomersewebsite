@@ -1,0 +1,40 @@
+@media  screen and (max-width : 1080px) {
+    /* body{
+        background-color: rgb(224, 196, 196);
+    } */
+    header{
+        position: unset;
+    }
+    nav{
+        flex-direction: column;
+        height: 107px;
+    }
+    .logo{
+        justify-content: center;
+        margin: 10px 0px 0px 0px;
+    }
+    nav ul {
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .search{
+        justify-content: center;
+    }
+    .slider{
+        width: 72vw;
+        height: 13vh;
+    }
+    
+    .card{
+        width: 93vw;
+        margin: 10px 0px;
+    }
+    .cards{
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+    footer{
+        height: 2vh;
+    }
+    
+}
